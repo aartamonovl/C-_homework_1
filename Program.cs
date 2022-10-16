@@ -40,7 +40,7 @@ else{
 
 //Задача 6. Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 
-Console.Write("Input int number: ");
+/*Console.Write("Input int number: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
 if (number % 2 == 0){
@@ -48,4 +48,26 @@ if (number % 2 == 0){
 }
 else{
     Console.WriteLine($"No, the number '{number}' is not even");
+}*/
+
+//Задача 8. Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+//Использовал дополнительное условие, чтобы в конце строки вывода была не запятая, а точка.
+
+/*Console.Write("Input natural number: ");
+int naturalNumber = Convert.ToInt32(Console.ReadLine());
+
+if (naturalNumber > 1){
+    for (int number = 2; naturalNumber - 2 >= number; number = number + 2){
+       Console.Write($"{number}, ");
+    }
+    if (naturalNumber % 2 == 0){
+        Console.Write($"{naturalNumber}.");
+    }
+    else{
+        Console.Write($"{naturalNumber - 1}.");
+    }
 }
+else{
+    Console.WriteLine("There is no one even number. Try again.");
+}
+Console.WriteLine("");*/
