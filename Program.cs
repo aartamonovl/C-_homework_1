@@ -16,13 +16,12 @@ else {
 
 //Задача 4. Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
-Console.Write("Input first int number: ");
+/*Console.Write("Input first int number: ");
 int firstNumber = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input second int number: ");
 int secondNumber = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input third int number: ");
 int thirdNumber = Convert.ToInt32(Console.ReadLine());
-int max = firstNumber;
 
 if (secondNumber > firstNumber){
     if (thirdNumber > secondNumber){
@@ -37,4 +36,16 @@ else if (thirdNumber > firstNumber){
 }
 else{
     Console.WriteLine($"{firstNumber} is the largest number.");
+}*/
+
+//Задача 6. Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+Console.Write("Input int number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if (number % 2 == 0){
+    Console.WriteLine($"Yes, the number '{number}' is even");
+}
+else{
+    Console.WriteLine($"No, the number '{number}' is not even");
 }
